@@ -1,0 +1,41 @@
+body {
+  font-size: 30px;
+  color: #444;
+  background-color: #A6BCBC;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1em;
+}
+label{
+  font-size: 0.6em;
+  font-weight: 500;
+}
+input#currentMoney {
+  font-size: 0.5em;
+  padding: 5px;
+  margin-left: 5px;
+}
+input#btn {
+  padding: 4px 20px;
+  border-radius: 10px;
+  background-color: #000;
+  color: #fff;
+}
+
+input:focus{
+    outline: none;
+}
+@keyframes slidein {
+  from { transform: scaleX(0); }
+  to   { transform: scaleX(1); }
+}
+
+#result {
+  flex: 1;
+  align-self: center;
+  padding-top: 2em;
+  font-size: .75em;
+  animation: 3s linear 1s slidein;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <meta name="description" content="Should I Stay or Should I Go?">
+  <meta name="Heather Mathies" content="Heather Mathies's Portfolio">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form id="form">
+  <fieldset>
+    <legend>Can you afford to quit your job?</legend>
+    <div class="main"><label for="input">Enter the total amount of liquid assests you have right now.</label><input type="text" oninput="checkValue()" placeholder="Enter a valid number" id="currentMoney" name="input"required></div>
+    <div class="main" id="value"></div>
+    <div class="main"><input type="button" id="btn" value="STAY or GO?"></div>
+
+  </fieldset>
+  <div id="result"></div>
+  </form>
+  <script src="scripts.js"></script>
+</body>
+
+
+</html>
